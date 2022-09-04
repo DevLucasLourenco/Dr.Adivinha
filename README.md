@@ -35,10 +35,10 @@ O intuito do algoritmo foi de criar um jogo o qual é fácil a interação. O jo
 Através dele, foram desenvolvidas functions para cada uma das funcionalidasdes. O jogo DR. ADIVINHA foi planejado para sua praticidde e tranquilidade de manejá-lo.
 
 No programa existem as seguintes functions:
-- Titulo
-- Armazenar
-- Jogadores
-- Script
+- titulo()
+- armazenar()
+- jogadores()
+- script()
 
 Cada uma delas é extremamente responsável pelo alcance que desejei que o programa tivesse. 
 Neste ponto, a partir das functions criadas, será iniciado um simples ciclo, entretanto eficiente, que permitirá que o jogador, apoós acertar as respostas novamente, consiga jogar mais vezes, o quanto quiser.
