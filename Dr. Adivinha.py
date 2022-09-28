@@ -5,7 +5,7 @@ import os
 table = BeautifulTable()
 table.set_style(BeautifulTable.STYLE_RST)
 
-
+                                                                                                                                      
 
 class selecionar_cor:
     v = '\033[92m'
@@ -33,13 +33,13 @@ def jogadores():
 
     return jogadores
 
-  
+
 
 def script():
     valor_inicial = 1
-    valor_final = (10 + 1) # permaneça com o "+1" para com que seja selecionado também o último número que foi posto na variável
+    valor_final = 10
 
-    numero_randomizado = random.randrange(valor_inicial, valor_final)
+    numero_randomizado = random.randrange(valor_inicial, valor_final + 1)  # permaneça com o "+1" para com que seja selecionado também o último número que foi posto na variável
     table.columns.header = ['Nome','Valor','Status','']
 
     contador = 0
